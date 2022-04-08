@@ -1,0 +1,8 @@
+.m-navitem {
+  color: var(--dark-grey);
+  font-weight: 700;
+  font-size: 20px;
+  &:hover {
+    color: var(--yellow);
+  }
+}

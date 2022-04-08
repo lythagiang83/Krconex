@@ -1,0 +1,15 @@
+m-banner-sale {
+  width: 100%;
+
+  &__btn {
+    width: 213px;
+    height: 54px;
+
+    color: var(--dark-grey);
+    font-size: 20px;
+    font-weight: 700;
+
+    background-color: var(--yellow);
+    border: none;
+  }
+}

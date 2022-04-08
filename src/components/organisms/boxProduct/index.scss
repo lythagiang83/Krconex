@@ -1,0 +1,58 @@
+.o-box-product {
+  width: 100%;
+  display: block;
+
+  margin: 1rem auto;
+
+  &__bg {
+    display: flex;
+    justify-content: space-around;
+
+    margin: auto 8rem;
+
+    position: relative;
+  }
+
+  &__item-group2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item2 {
+    margin-bottom: 0.7rem;
+  }
+
+  &__name {
+    position: absolute;
+
+    width: 169px;
+    height: 54px;
+    background-color: #fdeb37;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: var(--dark-grey);
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .accessories {
+    left: 10%;
+    top: 80%;
+  }
+
+  .summer {
+    left: 61%;
+    top: 28%;
+  }
+
+  .new {
+    left: 45%;
+    top: 80%;
+  }
+
+  .men {
+    left: 78%;
+    top: 80%;
+  }
+}

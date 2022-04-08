@@ -1,0 +1,19 @@
+.o-navigation {
+  height: 100%;
+
+  &__list {
+    width: 776px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item {
+  }
+  .active a {
+    background-color: red;
+    color: #fff;
+  }
+}

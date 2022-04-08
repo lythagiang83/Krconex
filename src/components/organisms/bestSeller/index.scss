@@ -1,0 +1,51 @@
+.o-best-seller {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__list {
+    max-width: 1563px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 1.8rem;
+  }
+
+  &__item {
+    width: 372px;
+    margin-top: 5.3rem;
+  }
+
+  .items {
+    font-size: 20px;
+    font-weight: 400;
+
+    color: var(--dark-grey);
+    opacity: 0.5;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: 500;
+
+    color: var(--dark-grey);
+  }
+
+  .discount {
+    font-size: 30px;
+    font-weight: 700;
+
+    color: var(--green-light);
+  }
+
+  .price {
+    font-size: 24px;
+    font-weight: 400;
+
+    text-decoration: line-through;
+
+    color: var(--dark-grey);
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+
+  --background: #e5e5e5;
+
+  --black: #000;
+  --white: #fff;
+  --grey: #c2c2c2;
+
+  --yellow: #fbd103;
+  --green: #004743;
+  --green-light: #74ca4d;
+  --dark-grey: #323232;
+}

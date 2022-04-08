@@ -1,0 +1,16 @@
+.t-header {
+  width: 100%;
+  height: 45px;
+  background: var(--dark-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+  &__nav-left {
+    margin-left: 2.3rem;
+  }
+  &__nav-right {
+    margin-right: 2.3rem;
+  }
+}
