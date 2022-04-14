@@ -11,13 +11,12 @@ export const BestSeller = ({ className = "" }) => {
               <img src={item.image} alt="" />
               <span className="items">{item.items}</span>
               <p className="name">{item.name}</p>
-
               <p className="discount">
                 {item.discount} <span className="price">{item.price}</span>
               </p>
             </Link>
           </li>
-        ))}
+        ))}   
       </ul>
     </div>
   );

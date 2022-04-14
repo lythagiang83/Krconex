@@ -6,11 +6,15 @@
 
   &__bg {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
     margin: auto 8rem;
 
     position: relative;
+  }
+
+  &__item{
+    padding-right: 1rem;
   }
 
   &__item-group2 {
@@ -37,7 +41,7 @@
   }
 
   .accessories {
-    left: 10%;
+    left: 17.5%;
     top: 80%;
   }
 

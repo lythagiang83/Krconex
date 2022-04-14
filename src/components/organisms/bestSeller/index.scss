@@ -1,15 +1,12 @@
 .o-best-seller {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 
   &__list {
     max-width: 1563px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: auto 1.8rem;
+    align-items: center;
+    margin: auto;
   }
 
   &__item {

@@ -1,23 +1,29 @@
+//ATOM
 @import "../components/atoms/cart/";
 @import "../components/atoms/inputSearch/";
 @import "../components/atoms/title/";
 @import "../components/atoms/description/";
-
+@import "../components/atoms/input/";
+//MOLECULES
 @import "../components/molecules/account/";
 @import "../components/molecules/banner/";
 @import "../components/molecules/social/";
 @import "../components/molecules/brand/";
 @import "../components/molecules/navitem/";
 @import "../components/molecules/bannerSale/";
-
+@import "../components/molecules/newsletter/";
+//ORGANISMS
 @import "../components/organisms/navigation/";
 @import "../components/organisms/sale/";
 @import "../components/organisms/boxProduct/";
 @import "../components/organisms/bestSeller/";
-
+@import "../components/organisms/collection/";
+@import "../components/organisms/tips/";
+//PAGES
 @import "../components/pages/home/";
-
+//TEMPLATES
 @import "../components/templates/header/";
 @import "../components/templates/section/";
 @import "../components/templates/wrapper/";
 @import "../components/templates/menu/";
+@import "../components/templates/footer/";

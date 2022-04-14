@@ -1,17 +1,20 @@
-import { Header } from "../header";
-import { Menu } from "../menu";
+import { Footer } from '../footer';
+import { Header } from '../header';
+import { Menu } from '../menu';
 
-export const Wrapper = ({ className = "", children }) => {
+export const Wrapper = ({ className = '', children }) => {
   return (
     <div className={`t-wrapper ${className}`}>
-      <div className="t-wrapper__header">
+      <div className='t-wrapper__header'>
         <Header />
       </div>
-      <div className="t-wrapper__navigation">
+      <div className='t-wrapper__navigation'>
         <Menu />
       </div>
-      <div className="t-wrapper__body">{children}</div>
-      <div className="t-wrapper__footer"></div>
+      <div className='t-wrapper__body'>{children}</div>
+      <div className='t-wrapper__footer'>
+        <Footer />
+      </div>
     </div>
   );
 };

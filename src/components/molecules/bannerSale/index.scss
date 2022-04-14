@@ -1,7 +1,16 @@
-m-banner-sale {
+.m-banner-sale {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
 
   &__btn {
+    position: absolute;
+    bottom: 8%;
+    right: 17%;
+
     width: 213px;
     height: 54px;
 
@@ -9,7 +18,7 @@ m-banner-sale {
     font-size: 20px;
     font-weight: 700;
 
-    background-color: var(--yellow);
+    background-color: #FDEB37;
     border: none;
   }
 }

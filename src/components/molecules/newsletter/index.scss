@@ -1,0 +1,27 @@
+.m-newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+
+    &__bg{
+        display: flex;
+        justify-content: center;
+    }
+
+    &__content{
+        position: absolute;
+    }
+
+    &__title span{
+        color: var(--white);
+    }
+
+    &__description{
+        color: var(--white) !important;
+        opacity: 0.5;
+        margin: 1rem 0;
+    }
+}
